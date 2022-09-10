@@ -27,4 +27,4 @@ body{color: white;}
 	100% {margin-top: 25px;}
 }
 
-.story_of_apollo .container h2{font-size: 240px; color:var(--mc);}
+.story_of_apollo .container h2{font-size: 240px; color:var(--mc); font-family: 'Poppins', sans-serif; font-weight: 600; text-align: right;} 
