@@ -18,7 +18,7 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 .main_visual { position: relative; background: url(../public/assets/img/mv.png) no-repeat center center/cover; height: calc(100vh - 100px); } 
 
 .main_visual .slogan { position: absolute; inset: 75% auto auto 50%; transform: translate(-50%,-50%); width: 1420px; font-family: 'Poppins', sans-serif; } 
-.main_visual .slogan p { font-size: 150px; font-weight: 600; } 
+.main_visual .slogan p { font-size: 150px; font-weight: 800; } 
 .main_visual .slogan strong { font-size: 250px; font-weight: 600; letter-spacing: -0.015em; } 
 
 .main_visual .main_object { position: absolute;inset: 10% auto auto 50%; transform: translateX(50%); } 
