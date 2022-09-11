@@ -43,7 +43,17 @@ const Main = () => {
                     </div>
                     <div className="ball"></div>
                 </div>
+            </section>
 
+            <section className="earth">
+                <div className="container">
+                    <p>그들은 또한 정지 사진 카메라와 동영상 카메라로 달 지형, 배치된<br />
+                        과학 장비, LM 우주선 및 서로를 광범위하게 촬영해야 했습니다.<br />
+                        이것은 "자유 귀환" 궤적을 비행하는 마지막 아폴로 임무였으며,<br />
+                        이는 달 궤도에 진입하기 전에 언제든지 임무를 중단할 수 있도록<br />
+                        하여 엔진 발사 없이 지구로 귀환할 수 있게 합니다.</p>
+                    <a href="">Read More</a>
+                </div>
             </section>
 
 

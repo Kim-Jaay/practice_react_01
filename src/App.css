@@ -3,6 +3,7 @@ body { background-color: black; }
 body { color: white; } 
 
 .container { width: 1420px; margin: 0 auto; } 
+p{ font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 
 
 
@@ -30,13 +31,12 @@ body { color: white; }
 
 .eagle { padding: 100px 0; } 
 .eagle h2 { font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 20px 0; } 
-.eagle p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; margin: 0 0 50px 0; } 
+.eagle p {margin: 0 0 50px 0; } 
 
 .moon { width: calc(100% - 720px - ((100% - 1420px) / 2)); float: right; } 
 .moon img { margin: 0 0 50px 0; } 
-.moon p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; } 
 
-.motion{clear: both;}
+.motion{clear: both; padding-bottom: 100px;}
 .motion .container { position: relative; } 
 .motion img { width: 800px; } 
 .motion .path { position: absolute; left: 50px; bottom: 50px;  width: 800px; } 
@@ -45,3 +45,7 @@ body { color: white; }
  0% { offset-distance: 0% } 
 100% { offset-distance: 100%; } 
  }
+
+ .earth{padding: 100px 0 500px 0; background: url(../public/assets/img/section_04.png) no-repeat center center/cover;}
+ .earth p{margin: 0 0 50px 0;}
+ .earth a{padding: 10px 30px; border-radius: 25px; border: 1px solid white; font-size: 15px; font-family: 'SUIT';}
