@@ -3,6 +3,7 @@ body { background-color: black; }
 body { color: white; } 
 
 .container { width: 1420px; margin: 0 auto; } 
+h2{font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 p{ font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 
 
@@ -15,7 +16,7 @@ p{ font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 
 .main_visual { position: relative; background: url(../public/assets/img/mv.png) no-repeat center center/cover; height: calc(100vh - 100px); } 
 
-.main_visual .slogan { position: absolute; inset: 80% auto auto 50%; transform: translate(-50%,-50%); width: 1420px; font-family: 'Poppins', sans-serif; } 
+.main_visual .slogan { position: absolute; inset: 75% auto auto 50%; transform: translate(-50%,-50%); width: 1420px; font-family: 'Poppins', sans-serif; } 
 .main_visual .slogan p { font-size: 150px; font-weight: 600; } 
 .main_visual .slogan strong { font-size: 250px; font-weight: 600; letter-spacing: -0.015em; } 
 
@@ -23,14 +24,14 @@ p{ font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 .main_visual .main_object>img { width:500px; animation: motion 2.5s linear 0s infinite alternate; } 
 @keyframes motion { 
  0% { margin-top: 0px; } 
-100% { margin-top: 25px; } 
+100% { margin-top: 30px; } 
  }
 
 .story_of_apollo { padding: 30px 0 100px 0; } 
 .story_of_apollo .container h2 { font-size: 240px; color:var(--mc); font-family: 'Poppins', sans-serif; font-weight: 600; text-align: right; } 
 
 .eagle { padding: 100px 0; } 
-.eagle h2 { font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 20px 0; } 
+.eagle h2 { margin: 0 0 20px 0; } 
 .eagle p {margin: 0 0 50px 0; } 
 
 .moon { width: calc(100% - 720px - ((100% - 1420px) / 2)); float: right; } 
@@ -49,3 +50,7 @@ p{ font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
  .earth{padding: 100px 0 500px 0; background: url(../public/assets/img/section_04.png) no-repeat center center/cover;}
  .earth p{margin: 0 0 50px 0;}
  .earth a{padding: 10px 30px; border-radius: 25px; border: 1px solid white; font-size: 15px; font-family: 'SUIT';}
+
+
+ .slide{padding: 200px 0;}
+ .slide h2{text-align: center; margin: 0 0 20px 0;}

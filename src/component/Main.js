@@ -18,7 +18,7 @@ const Main = () => {
 
             <section className="eagle">
                 <div className="container">
-                    <h2>"The Eagle has landed…"</h2>
+                    <h2>The Eagle has landed…</h2>
                     <p>아폴로 11호의 주요 목표는 1961년 5월 25일 <br />
                         존 F. 케네디 대통령이 설정한 국가 목표인 유인<br />
                         달 착륙 및 지구 귀환을 완료하는 것이었습니다.
@@ -54,6 +54,12 @@ const Main = () => {
                         하여 엔진 발사 없이 지구로 귀환할 수 있게 합니다.</p>
                     <a href="">Read More</a>
                 </div>
+            </section>
+
+            <section className="slide">
+                <h2>The Eagle has landed…</h2>
+                <div className="top"></div>
+                <div className="bot"></div>
             </section>
 
 
