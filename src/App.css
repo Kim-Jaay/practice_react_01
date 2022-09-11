@@ -1,36 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1,900&display=swap'); :root { --mc:#2334E3; } 
+body { background-color: black; } 
+body { color: white; } 
 
-
-:root {--mc:#2334E3;}
-body{background-color: black;}
-body{color: white;}
-
-.container{width: 1420px; margin: 0 auto;}
+.container { width: 1420px; margin: 0 auto; } 
 
 
 
-.header .container {width: 1420px; margin: 0 auto; display: flex; justify-content: space-between; line-height: 100px;}
-.header a{display: block;}
-.header .Gnb>ul{display: flex; gap: 40px;}
-.header .icon{display: flex; gap: 20px;}
+.header .container { width: 1420px; margin: 0 auto; display: flex; justify-content: space-between; line-height: 100px; } 
+.header a { display: block; } 
+.header .Gnb>ul { display: flex; gap: 40px; font-size: 18px; font-family: 'Poppins', sans-serif; } 
+.header .icon { display: flex; gap: 20px; } 
 
 
-.main_visual {position: relative; background: url(../public/assets/img/mv.png) no-repeat center center/cover; height: calc(100vh - 100px); }
+.main_visual { position: relative; background: url(../public/assets/img/mv.png) no-repeat center center/cover; height: calc(100vh - 100px); } 
 
-.main_visual .slogan{position: absolute; inset: 80% auto auto 50%; transform: translate(-50%,-50%); width: 1420px; font-family: 'Poppins', sans-serif;}
-.main_visual .slogan p{font-size: 150px; font-weight: 600;}
-.main_visual .slogan strong{font-size: 250px; font-weight: 600; letter-spacing: -0.015em;}
+.main_visual .slogan { position: absolute; inset: 80% auto auto 50%; transform: translate(-50%,-50%); width: 1420px; font-family: 'Poppins', sans-serif; } 
+.main_visual .slogan p { font-size: 150px; font-weight: 600; } 
+.main_visual .slogan strong { font-size: 250px; font-weight: 600; letter-spacing: -0.015em; } 
 
-.main_visual .main_object{position: absolute; inset: 10% auto auto 50%; transform: translateX(50%);}
-.main_visual .main_object>img{width:500px; animation: motion 2.5s linear 0s infinite alternate; }
-@keyframes motion {
-	0% {margin-top: 0px;}
-	100% {margin-top: 25px;}
-}
+.main_visual .main_object { position: absolute; inset: 10% auto auto 50%; transform: translateX(50%); } 
+.main_visual .main_object>img { width:500px; animation: motion 2.5s linear 0s infinite alternate; } 
+@keyframes motion { 
+ 0% { margin-top: 0px; } 
+100% { margin-top: 25px; } 
+ }
 
-.story_of_apollo {padding: 30px 0 100px 0;}
-.story_of_apollo .container h2{font-size: 240px; color:var(--mc); font-family: 'Poppins', sans-serif; font-weight: 600;  text-align: right;} 
+.story_of_apollo { padding: 30px 0 100px 0; } 
+.story_of_apollo .container h2 { font-size: 240px; color:var(--mc); font-family: 'Poppins', sans-serif; font-weight: 600; text-align: right; } 
 
-.eagle{padding: 100px 0;}
-.eagle h2{font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 20px 0; }
-.eagle p{font-size: 15px; font-family: 'SUIT'; line-height: 1.45; margin: 0 0 50px 0;}
+.eagle { padding: 100px 0; } 
+.eagle h2 { font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 20px 0; } 
+.eagle p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; margin: 0 0 50px 0; } 
+
+.moon { width: calc(100% - 720px - ((100% - 1420px) / 2)); float: right; } 
+.moon img { margin: 0 0 50px 0; } 
+.moon p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; } 
+
+.motion{clear: both;}
+.motion .container { position: relative; } 
+.motion img { width: 800px; } 
+.motion .path { position: absolute; left: 50px; bottom: 50px;  width: 800px; } 
+.motion .ball { position: absolute; left: 50px; top: -50px; width: 20px; height: 20px; background-color: white; border-radius: 50%; offset: path('M582.997 121.297C681.51 195.613 750.299 289.86 781.908 382.119C813.52 474.384 807.92 564.546 757.874 630.888C707.828 697.229 622.67 727.374 525.271 722.317C427.88 717.261 318.365 677.001 219.851 602.685C121.337 528.369 52.5488 434.122 20.9396 341.863C-10.6718 249.598 -5.07269 159.436 44.9735 93.0944C95.0197 26.753 180.177 -3.39241 277.576 1.66448C374.968 6.72105 484.483 46.9811 582.997 121.297Z') auto; animation: moveto 10s linear 0s infinite; } 
+@keyframes moveto { 
+ 0% { offset-distance: 0% } 
+100% { offset-distance: 100%; } 
+ }
