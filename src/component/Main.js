@@ -1,3 +1,5 @@
+
+
 const Main = () => {
     return (
         <>
@@ -56,11 +58,7 @@ const Main = () => {
                 </div>
             </section>
 
-            <section className="slide">
-                <h2>The Eagle has landed…</h2>
-                <div className="top"></div>
-                <div className="bot"></div>
-            </section>
+
 
 
 

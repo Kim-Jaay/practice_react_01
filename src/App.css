@@ -54,4 +54,7 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 
 
  .slide { padding: 200px 0; } 
- .slide h2 { text-align: center; margin: 0 0 20px 0; } 
+ .slide h2 { text-align: center; margin: 0 0 50px 0; } 
+.slide .top{margin: 0 0 20px 0;}
+
+.slide02{height: 100vh;}
