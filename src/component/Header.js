@@ -1,4 +1,13 @@
 import { FaSearch, FaShareAlt } from 'react-icons/fa';
+const NAVLINK = [
+    { id: 1, menu: 'Missions', link: '/' },
+    { id: 2, menu: 'Galleries', link: '/' },
+    { id: 3, menu: 'NASA TV', link: '/' },
+    { id: 4, menu: 'Follow NAS', link: '/' },
+    { id: 5, menu: 'About', link: '/' },
+    { id: 6, menu: 'Audiences', link: '/' }
+]
+
 
 const Header = () => {
 
@@ -8,12 +17,13 @@ const Header = () => {
                 <h1><a href=""><img src={process.env.PUBLIC_URL + "/assets/img/logo.svg"} alt="" /></a></h1>
                 <nav className="Gnb">
                     <ul>
-                        <li><a href="">Missions</a></li>
-                        <li><a href="">Galleries</a></li>
-                        <li><a href="">NASA TV</a></li>
-                        <li><a href="">Follow NASA</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Audiences</a></li>
+                        {
+                            NAVLINK.map((it, idx) => {
+                                return (
+                                    <li key={it.id}><a href={it.link}>{it.menu}</a></li>
+                                )
+                            })
+                        }
                     </ul>
                 </nav>
                 <div className="icon">
