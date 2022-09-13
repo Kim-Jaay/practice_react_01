@@ -1,4 +1,12 @@
 const Footer = () => {
+    return (
+        <>
+
+
+
+
+        </>
+    )
 
 
 }
