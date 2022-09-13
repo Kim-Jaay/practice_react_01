@@ -54,7 +54,7 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 .earth a { padding: 10px 30px; border-radius: 25px; border: 1px solid white; font-size: 15px; font-family: 'SUIT'; } 
 
 
-.slide { padding: 100px 0; } 
+.slide { padding: 200px 0; } 
 .slide h2 { text-align: center; margin: 0 0 50px 0; } 
 .slide .top { margin: 0 0 20px 0; } 
 
@@ -64,3 +64,10 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 .mySwiper3 .storyslide .inner p{margin: 0 0 20px 0;}
 .mySwiper3 .storyslide .inner h2{line-height: 1.3; margin: 0 0 50px 0;}
 .mySwiper3 .storyslide .inner a{ padding: 10px 30px; border-radius: 25px; border: 1px solid white; font-size: 15px; font-family: 'SUIT'; } 
+
+.Footer{padding: 50px 0; font-size: 13px; font-family: 'SUIT';}
+.Footer .container{display: flex;}
+.Footer h1{margin-right: 30px;}
+.Footer .container .footerLeft>li{margin: 10px 0; font-size: 15px;}
+.Footer .container .footerMenu{display: flex; margin: 0 0 0 auto;}
+.Footer .container .footerMenu>li~li::before{display: inline-block; content: ''; width: 1px; height: 10px; background: white; margin: 0 20px; }
