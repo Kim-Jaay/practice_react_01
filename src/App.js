@@ -2,26 +2,26 @@
 import './App.css';
 import Header from './component/Header';
 import Main from './component/Main';
+import SlideSection from './component/SlideSection'
 import Footer from './component/Footer';
-import Main_02 from './component/Main_02'
 
 
 function App() {
   return (
     <div className='Wrap'>
-      <header className='header'>
+      <header className='Header'>
         <Header />
       </header>
 
-      <main className='main'>
+      <main className='Main'>
         <Main />
       </main>
 
-      <main className='main02'>
-        <Main_02 />
+      <main className='SlideSection'>
+        <SlideSection />
       </main>
 
-      <footer className='footer'>
+      <footer className='Footer'>
         <Footer />
       </footer>
 
