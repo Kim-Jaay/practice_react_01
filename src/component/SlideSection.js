@@ -97,7 +97,7 @@ export default function App() {
                             <a href="">Read More</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="storyslide">
+                    <SwiperSlide className="storyslide blue">
                         <img src={process.env.PUBLIC_URL + "/assets/img/last_slide02.png"} alt="" />
                         <div className="inner">
                             <p>Apollo 11 Crew Trains<br />
@@ -122,7 +122,7 @@ export default function App() {
                             <a href="">Read More</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="storyslide">
+                    <SwiperSlide className="storyslide blue">
                         <img src={process.env.PUBLIC_URL + "/assets/img/last_slide04.png"} alt="" />
                         <div className="inner">
                             <p>Apollo 11 Crew Trains<br />

@@ -47,7 +47,8 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 
 .earth { padding: 100px 0 500px 0; background: url(../public/assets/img/section_04.png) no-repeat center center/cover; }
 .earth p { margin: 0 0 50px 0; }
-.earth a { padding: 10px 30px; border-radius: 25px; border: 1px solid #fff; font-size: 15px; font-family: 'SUIT'; }
+.earth a { padding: 10px 30px; border-radius: 25px; border: 1px solid #fff; font-size: 15px; font-family: 'SUIT'; transition: 0.5s; }
+.earth a:hover { border: 1px solid var(--mc); background: var(--mc); color: #fff; }
 
 .slide { padding: 200px 0; }
 .slide h2 { text-align: center; margin: 0 0 50px 0; }
@@ -58,7 +59,12 @@ p { font-size: 15px; font-family: 'SUIT'; line-height: 1.45; }
 .mySwiper3 .storyslide .inner { position: absolute; top: 50%; left: calc((100vw - 1420px) / 2); transform: translateY(-50%); }
 .mySwiper3 .storyslide .inner p { margin: 0 0 20px 0; }
 .mySwiper3 .storyslide .inner h2 { line-height: 1.3; margin: 0 0 50px 0; }
-.mySwiper3 .storyslide .inner a { padding: 10px 30px; border-radius: 25px; border: 1px solid #fff; font-size: 15px; font-family: 'SUIT'; }
+
+.mySwiper3 .storyslide .inner a { padding: 10px 30px; border-radius: 25px; border: 1px solid #fff; font-size: 15px; font-family: 'SUIT'; transition: 0.5s; }
+.mySwiper3 .storyslide .inner a:hover { border: 1px solid var(--mc); background: var(--mc); color: #fff; }
+
+.mySwiper3 .blue .inner a { padding: 10px 30px; border-radius: 25px; border: 1px solid #fff; font-size: 15px; font-family: 'SUIT'; transition: 0.5s; }
+.mySwiper3 .blue .inner a:hover { border: 1px solid #fff; background: #fff; color: var(--mc); }
 
 .Footer { padding: 50px 0; font-size: 13px; font-family: 'SUIT'; }
 .Footer .container { display: flex; }
